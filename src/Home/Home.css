@@ -1,0 +1,9 @@
+.buttonRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonRow .wrapper:first-child {
+  margin-right: 50px;
+}/*# sourceMappingURL=Home.css.map */
