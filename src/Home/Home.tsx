@@ -1,4 +1,5 @@
 import "./Home.css";
+import React from "react";
 import NavigateButton from "../common/NavigateButton/NavigateButton";
 import Title from "../common/Title/Title";
 
