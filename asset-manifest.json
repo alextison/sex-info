@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sex-info/static/css/main.8579ab90.css",
+    "main.js": "/sex-info/static/js/main.d61023de.js",
+    "static/js/787.f2db6bcb.chunk.js": "/sex-info/static/js/787.f2db6bcb.chunk.js",
+    "static/media/blurry-gradient-haikei.svg": "/sex-info/static/media/blurry-gradient-haikei.b0dc1aafb05d4dbdcd91.svg",
+    "index.html": "/sex-info/index.html",
+    "main.8579ab90.css.map": "/sex-info/static/css/main.8579ab90.css.map",
+    "main.d61023de.js.map": "/sex-info/static/js/main.d61023de.js.map",
+    "787.f2db6bcb.chunk.js.map": "/sex-info/static/js/787.f2db6bcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8579ab90.css",
+    "static/js/main.d61023de.js"
+  ]
+}
