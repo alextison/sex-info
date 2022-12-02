@@ -9,7 +9,7 @@ function App() {
     <div className="content">
       <BrowserRouter>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="sex-info" element={<Home />} />
           <Route path="documentation" element={<Documentation />} />
         </Routes>
       </BrowserRouter>
