@@ -13,7 +13,7 @@ function Home() {
           href={"documentation"}
           colorFill={"F5F5F5"}
         />
-        <NavigateButton text={"START"} href={""} colorFill={"F5F5F5"} />
+        <NavigateButton text={"START"} href={"form"} colorFill={"F5F5F5"} />
       </div>
     </div>
   );
