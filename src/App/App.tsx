@@ -1,26 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../Home/Home";
+import Documentation from "../Documentation/Documentation";
 import "./App.css";
-import NextButton from "../common/nextButton/NextButton";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Title />
-        <div className="buttonRow">
-          <NextButton text={"DOC"} href={""} colorFill={"F5F5F5"} />
-          <NextButton text={"START"} href={""} colorFill={"F5F5F5"} />
-        </div>
-      </header>
-    </div>
-  );
-}
-
-function Title() {
-  return (
-    <div id="wrapper">
-      <div id="container">
-        <h1>SexInfo</h1>
-      </div>
+    <div className="content">
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="documentation" element={<Documentation />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
