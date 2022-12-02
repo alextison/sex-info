@@ -1,9 +1,13 @@
-import "./NextButton.css";
+import "./NavigateButton.css";
 
-function NextButton(props: { text: string; href: string; colorFill: string }) {
+function NavigateButton(props: {
+  text: string;
+  href: string;
+  colorFill: string;
+}) {
   return (
     <div className="wrapper">
-      <a className="cta" href={"#" + props.href}>
+      <a className="cta" href={props.href}>
         <span>{props.text}</span>
         <span>
           <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1">
@@ -37,4 +41,4 @@ function NextButton(props: { text: string; href: string; colorFill: string }) {
   );
 }
 
-export default NextButton;
+export default NavigateButton;
